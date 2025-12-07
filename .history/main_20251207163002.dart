@@ -18,8 +18,6 @@ void main() {
   List<String> name = ["1", "2", "3"];
 
   List n = [1, 2, 3];
-  final reversed = n.reversed;
-  print(reversed);
   
   name[0];
   print("${name[2]}");

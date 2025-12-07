@@ -19,8 +19,7 @@ void main() {
 
   List n = [1, 2, 3];
   final reversed = n.reversed;
-  print(reversed);
-  
+  print(rever)
   name[0];
   print("${name[2]}");
   name.addAll(["iterable", ""]);

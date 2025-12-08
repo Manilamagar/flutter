@@ -42,17 +42,13 @@ void main() {
   // print(value);
 
   // print(newvalue);
-
-  Person name = Person("name", "address");
-  print(name.name);
-  print(name.address);
-  print(name.home);
 }
 
-//positional
+
+//positio
 class Person {
   final String name;
   final String address;
-  final String? home; //optional //nullable ?
-  Person(this.name, this.address, [this.home]);
+  person(this.name, this.address);
+
 }

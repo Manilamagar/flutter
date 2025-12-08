@@ -46,13 +46,13 @@ void main() {
   Person name = Person("name", "address");
   print(name.name);
   print(name.address);
-  print(name.home);
+  print()
 }
 
 //positional
 class Person {
   final String name;
   final String address;
-  final String? home; //optional //nullable ?
+  final String? home; //optional
   Person(this.name, this.address, [this.home]);
 }

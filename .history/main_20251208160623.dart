@@ -53,6 +53,6 @@ void main() {
 class Person {
   final String name;
   final String address;
-  final String? home; //optional //nullable ?
+  final String? home; //optional //nullable ??
   Person(this.name, this.address, [this.home]);
 }

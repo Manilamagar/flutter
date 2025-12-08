@@ -32,27 +32,10 @@ void main() {
   // "h":"ff"
   // }
 
-  //Map -->key value pair
-  //String,string
+  //Map -->key
 
-  // Map names = {"fullname": 1};
-  // final value = names["fullname"];
+  Map names = {
 
-  // final newvalue = names['fullname'] = 2; //assign new value or update value
-  // print(value);
-
-  // print(newvalue);
-
-  Person name = Person("name", "address");
-  print(name.name);
-  print(name.address);
-  print(name.home);
+  }
 }
 
-//positional
-class Person {
-  final String name;
-  final String address;
-  final String? home; //optional //nullable ?
-  Person(this.name, this.address, [this.home]);
-}
